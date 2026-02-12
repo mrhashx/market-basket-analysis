@@ -62,15 +62,31 @@ The entire pipeline is engineered mathematically to filter and evaluate rules us
 
 Follow these steps to clone the repository and execute the data mining pipeline on your local machine:
 
-### 1. Install Dependencies
-Ensure you have Python installed, then install the required data science and data mining libraries:
-```bash
-pip install pandas mlxtend matplotlib seaborn
-
-
-
-### 2. Clone the Repository
+### 1. Clone the Repository
 Open your terminal or command prompt and run:
 ```bash
 git clone [https://github.com/mrhashx/market-basket-analysis.git](https://github.com/mrhashx/market-basket-analysis.git)
 cd market-basket-analysis
+
+2. Install Dependencies
+Ensure you have Python installed, then install the required data science and data mining libraries:
+
+Bash
+pip install pandas mlxtend matplotlib seaborn
+3. Run the Pipeline
+Execute the main Python script to generate the frequent itemsets, extract association rules, and output the visualization plots into the images/ directory:
+
+Bash
+python market_basket_analysis.py
+(Note: If you are using a Jupyter Notebook, simply open the .ipynb file and run all cells sequentially).
+
+🛠️ Tech Stack & Dependencies
+Language: Python 3.x
+
+Data Engines: Pandas, NumPy
+
+Data Mining Framework: MLxtend (apriori, fpgrowth, association_rules)
+
+Visualization: Matplotlib, Seaborn
+
+Note: This data mining pipeline was successfully completed, analyzed, and archived in February 2026.
