@@ -40,24 +40,6 @@ The entire pipeline is engineered mathematically to filter and evaluate rules us
 
 ---
 
-### 2. Rule Evaluation & Distribution (Support vs. Confidence vs. Lift)
-*Advanced plots visualizing the extracted association rules to detect optimal thresholds.*
-- **Scatter Plot:** Displays the trade-off between Support and Confidence, color-coded by **Lift**. High-lift rules (yellow zone) offer the most valuable cross-selling insights.
-- **Bar Plot:** Highlights the top-performing extracted rules pruned at optimal confidence intervals.
-
-<p align="center">
-  <img src="images/rules_support_vs_confidence.png" width="48%" alt="Support vs Confidence Scatter" />
-  <img src="images/top_rules_confidence.png" width="48%" alt="Top Rules Confidence" />
-</p>
-
----
-
-## 📈 Key Discovery & Business Insights
-- **Strongest Association:** A highly prominent rule discovered is **$\text{Toast} \rightarrow \text{Coffee}$** with an exceptional Lift score ($\approx 1.5$), meaning a customer buying Toast is 1.5 times more likely to purchase Coffee compared to an average customer.
-- **Algorithm Performance:** **FP-Growth** significantly outperformed Apriori in execution speed at lower minimum support thresholds, due to its tree-based structure which eliminates the need for expensive repeated database scans.
-
----
-
 ## 💻 How to Run This Project
 
 Follow these steps to clone the repository and execute the data mining pipeline on your local machine:
@@ -67,20 +49,22 @@ Open your terminal or command prompt and run:
 ```bash
 git clone [https://github.com/mrhashx/market-basket-analysis.git](https://github.com/mrhashx/market-basket-analysis.git)
 cd market-basket-analysis
+```
 
-2. Install Dependencies
+### 2. Install Dependencies
 Ensure you have Python installed, then install the required data science and data mining libraries:
-
-Bash
+```Bash
 pip install pandas mlxtend matplotlib seaborn
-3. Run the Pipeline
+```
+### 3. Run the Pipeline
 Execute the main Python script to generate the frequent itemsets, extract association rules, and output the visualization plots into the images/ directory:
-
-Bash
+```Bash
 python market_basket_analysis.py
+```
+
 (Note: If you are using a Jupyter Notebook, simply open the .ipynb file and run all cells sequentially).
 
-🛠️ Tech Stack & Dependencies
+### 🛠️ Tech Stack & Dependencies
 Language: Python 3.x
 
 Data Engines: Pandas, NumPy
@@ -89,4 +73,3 @@ Data Mining Framework: MLxtend (apriori, fpgrowth, association_rules)
 
 Visualization: Matplotlib, Seaborn
 
-Note: This data mining pipeline was successfully completed, analyzed, and archived in February 2026.
