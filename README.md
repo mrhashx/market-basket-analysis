@@ -58,11 +58,19 @@ The entire pipeline is engineered mathematically to filter and evaluate rules us
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
-- **Language:** Python 3.x
-- **Data Engines:** Pandas, NumPy
-- **Data Mining Framework:** MLxtend (`apriori`, `fpgrowth`, `association_rules`)
-- **Visualization:** Matplotlib, Seaborn
+## 💻 How to Run This Project
 
----
-*Note: This data mining pipeline was successfully completed, analyzed, and archived in February 2026.*
+Follow these steps to clone the repository and execute the data mining pipeline on your local machine:
+
+### 1. Install Dependencies
+Ensure you have Python installed, then install the required data science and data mining libraries:
+```bash
+pip install pandas mlxtend matplotlib seaborn
+
+
+
+### 2. Clone the Repository
+Open your terminal or command prompt and run:
+```bash
+git clone [https://github.com/mrhashx/market-basket-analysis.git](https://github.com/mrhashx/market-basket-analysis.git)
+cd market-basket-analysis
