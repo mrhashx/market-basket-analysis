@@ -1,0 +1,62 @@
+k,itemset,item_ids,support_count,support
+1,Coffee,24,4528,0.478394
+1,Bread,12,3097,0.327205
+1,Tea,84,1350,0.142631
+1,Cake,16,983,0.103856
+1,Pastry,66,815,0.086107
+1,Sandwich,74,680,0.071844
+1,Medialuna,56,585,0.061807
+1,Hot chocolate,49,552,0.05832
+1,Cookies,27,515,0.054411
+1,Brownie,15,379,0.040042
+1,Farm House,38,371,0.039197
+1,Juice,52,365,0.038563
+1,Muffin,61,364,0.038457
+1,Alfajores,3,344,0.036344
+1,Scone,76,327,0.034548
+1,Soup,79,326,0.034443
+1,Toast,88,318,0.033597
+1,Scandinavian,75,275,0.029054
+1,Truffles,89,192,0.020285
+1,Coke,26,184,0.01944
+1,Spanish Brunch,80,172,0.018172
+1,Baguette,7,152,0.016059
+1,Tiffin,87,146,0.015425
+1,Jam,50,142,0.015003
+1,Fudge,41,142,0.015003
+1,Mineral water,58,134,0.014157
+1,Jammie Dodgers,51,125,0.013207
+1,Chicken Stew,19,123,0.012995
+1,Hearty & Seasonal,47,100,0.010565
+1,Salad,73,99,0.01046
+2,"Bread, Coffee","12, 24",852,0.090016
+2,"Cake, Coffee","16, 24",518,0.054728
+2,"Coffee, Tea","24, 84",472,0.049868
+2,"Coffee, Pastry","24, 66",450,0.047544
+2,"Coffee, Sandwich","24, 74",362,0.038246
+2,"Coffee, Medialuna","24, 56",333,0.035182
+2,"Coffee, Hot chocolate","24, 49",280,0.029583
+2,"Bread, Pastry","12, 66",276,0.02916
+2,"Coffee, Cookies","24, 27",267,0.028209
+2,"Bread, Tea","12, 84",266,0.028104
+2,"Cake, Tea","16, 84",225,0.023772
+2,"Coffee, Toast","24, 88",224,0.023666
+2,"Bread, Cake","12, 16",221,0.023349
+2,"Coffee, Juice","24, 52",195,0.020602
+2,"Alfajores, Coffee","3, 24",186,0.019651
+2,"Brownie, Coffee","15, 24",186,0.019651
+2,"Coffee, Muffin","24, 61",178,0.018806
+2,"Coffee, Scone","24, 76",171,0.018067
+2,"Bread, Sandwich","12, 74",161,0.01701
+2,"Bread, Medialuna","12, 56",160,0.016904
+2,"Coffee, Soup","24, 79",150,0.015848
+2,"Bread, Cookies","12, 27",137,0.014474
+2,"Sandwich, Tea","74, 84",136,0.014369
+2,"Bread, Hot chocolate","12, 49",127,0.013418
+2,"Cake, Hot chocolate","16, 49",108,0.01141
+2,"Coffee, Spanish Brunch","24, 80",103,0.010882
+2,"Bread, Brownie","12, 15",102,0.010777
+2,"Alfajores, Bread","3, 12",98,0.010354
+3,"Bread, Coffee, Pastry","12, 24, 66",106,0.011199
+3,"Cake, Coffee, Tea","16, 24, 84",95,0.010037
+3,"Bread, Cake, Coffee","12, 16, 24",95,0.010037

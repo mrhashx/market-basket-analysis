@@ -1,0 +1,20 @@
+antecedent,consequent,support,confidence,antecedent_ids,consequent_ids
+Toast,Coffee,0.023666,0.704403,88,24
+Spanish Brunch,Coffee,0.010882,0.598837,80,24
+Medialuna,Coffee,0.035182,0.569231,56,24
+Pastry,Coffee,0.047544,0.552147,66,24
+Alfajores,Coffee,0.019651,0.540698,3,24
+Juice,Coffee,0.020602,0.534247,52,24
+Sandwich,Coffee,0.038246,0.532353,74,24
+Cake,Coffee,0.054728,0.526958,16,24
+Scone,Coffee,0.018067,0.522936,76,24
+Cookies,Coffee,0.028209,0.518447,27,24
+Hot chocolate,Coffee,0.029583,0.507246,49,24
+Brownie,Coffee,0.019651,0.490765,15,24
+Muffin,Coffee,0.018806,0.489011,61,24
+Soup,Coffee,0.015848,0.460123,79,24
+"Bread, Cake",Coffee,0.010037,0.429864,"12, 16",24
+"Cake, Tea",Coffee,0.010037,0.422222,"16, 84",24
+"Bread, Pastry",Coffee,0.011199,0.384058,"12, 66",24
+Tea,Coffee,0.049868,0.34963,84,24
+Pastry,Bread,0.02916,0.33865,66,12
